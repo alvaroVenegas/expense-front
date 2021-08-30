@@ -1,0 +1,44 @@
+#pie {
+    height: 440px;
+}
+
+#pie * {
+    margin: 0 auto;
+}
+
+
+.layout{
+    background: rgba(245, 240, 240, 0.284);
+    backdrop-filter: saturate(180%) blur(10px);
+    width: 100%;
+    max-width: 70rem; 
+    height: 90vh;
+    max-height: 40rem;  
+    overflow-y: auto;
+    border-radius: 0.625rem; 
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;    
+    
+
+}
+.container{
+    margin: 0 auto;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    width: 98%;
+    max-width: 70rem; 
+    height: 85vh;
+    max-height: 39rem;  
+    border-radius: 0.625rem; 
+}
+
+.gastos{
+    position: absolute;
+}

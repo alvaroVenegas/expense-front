@@ -1,0 +1,16 @@
+.app {
+  margin: 0 auto; 
+  width: 90%;
+  max-width: 70rem; /*1110px*/
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 100;  
+}
+
+.error{
+  color: red;
+  text-align: center;
+}

@@ -1,0 +1,75 @@
+{
+  "name": "expense-app-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-chart": "^2.7.6",
+    "@devexpress/dx-react-chart-material-ui": "^2.7.6",
+    "@devexpress/dx-react-core": "^2.7.6",
+    "@devextreme/vdom": "1.2.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "bcrypt": "^5.0.1",
+    "chart.js": "^3.4.0",
+    "date-fns": "^2.22.1",
+    "daypicker": "^1.0.1",
+    "devexpress-diagram": "2.1.19",
+    "devexpress-gantt": "2.1.42",
+    "devextreme": "21.1.4",
+    "devextreme-quill": "1.1.4",
+    "devextreme-react": "21.1.4",
+    "es6-object-assign": "1.1.0",
+    "inferno": "7.4.8",
+    "inferno-clone-vnode": "7.4.8",
+    "inferno-compat": "7.4.8",
+    "inferno-create-class": "7.4.8",
+    "inferno-create-element": "7.4.8",
+    "inferno-dom": "1.0.7",
+    "inferno-extras": "7.4.8",
+    "inferno-hydrate": "7.4.8",
+    "jszip": "3.6.0",
+    "luxon": "1.27.0",
+    "node-sass": "^6.0.1",
+    "prop-types": "15.7.2",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.3",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
+    "rrule": "2.6.6",
+    "typescript": "^4.3.4",
+    "web-vitals": "^1.1.2",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

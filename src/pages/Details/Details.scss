@@ -1,0 +1,161 @@
+.user-bar {
+    float: right;
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, .05);
+  }  
+
+
+.info{
+    margin-bottom: 50px;
+    &__title{
+        font-size: 5rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        color: #fff;
+    }
+    &__slogan{
+        font-family: Roboto;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
+
+.layout{
+    background: rgba(245, 240, 240, 0.284);
+    backdrop-filter: saturate(180%) blur(10px);
+    width: 100%;
+    max-width: 70rem; 
+    height: 90vh;
+    max-height: 40rem;  
+    overflow-y: auto;
+    border-radius: 0.625rem; 
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;    
+    
+
+}
+.details__container{
+    margin: 0 auto;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    width: 98%;
+    max-width: 70rem; 
+    height: 85vh;
+    max-height: 39rem;  
+    border-radius: 0.625rem;
+    overflow: auto;
+
+}
+
+.container__dtop{
+    
+    width: 97%;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container__dtop h1{
+    font-size:35px;
+}
+  
+.form{
+    color: #444444;
+    
+
+    input[type=text],input[type=email], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+    input[type=text]:focus,input[type=email]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+    .register-btn {
+        background-color:#2DB1CE;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+        transition: all ease 0.8s;
+        font-size: 18px;
+       
+    }
+      
+    .register-btn:hover {  
+        background-color:#049cbd;  
+        opacity: 1;
+    }
+    
+    .signin  a {
+        color: #2DB1CE;
+    }
+      
+}
+
+.main__top{
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.details__views{
+    margin-right: 10%;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #6ada6a;
+    &--marg{
+        margin-right: 20px;
+    }
+    &--marg--on:hover{
+        color: #049cbd;
+        cursor:pointer;
+    }
+    &--marg--on{
+        color: #049cbd;
+        cursor:pointer;
+    }
+    &--marg--off{
+        color: #6ada6a;
+        cursor:pointer;
+    }
+}
+
+
+.logout{
+    font-size: 30px;
+    color: grey;
+    cursor:pointer;
+    :hover{
+        color:#f47272;
+    }
+}
+
+
